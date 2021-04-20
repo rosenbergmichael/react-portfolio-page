@@ -7,6 +7,25 @@ const Sidebar = () => {
       <Icon>
         <CloseIcon />
       </Icon>
+      <SidebarWrapper>
+        <SidebarMenu>
+        <SidebarLink to='/'>
+            Home
+          </SidebarLink>
+          <SidebarLink to='about'>
+            About
+          </SidebarLink>
+          <SidebarLink to='skills'>
+            Skills
+          </SidebarLink>
+          <SidebarLink to='portfolio'>
+            Portfolio
+          </SidebarLink>
+        </SidebarMenu>
+        <SideBtnWrap>
+          <SidebarRoute to='/contact'>Contact</SidebarRoute>
+        </SideBtnWrap>
+      </SidebarWrapper>
     </SidebarContainer>
   );
 };
