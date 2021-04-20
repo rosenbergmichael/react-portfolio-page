@@ -51,9 +51,10 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+    color: #fff;
   }
 `
-// below for next git push
+
 export const NavMenu = styled.ul`
   display: flex;
   align-items: center;
