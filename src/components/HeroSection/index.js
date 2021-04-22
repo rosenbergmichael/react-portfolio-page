@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <HeroContainer>
       <HeroBg>
-        {/* <ImageBg src={Image} type='img' /> */}
+        <VideoBg src={Video} type='videos/mp4' />
       </HeroBg>
     </HeroContainer>
   )
