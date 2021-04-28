@@ -8,7 +8,7 @@ export const homeObjOne = {
   description: 'tbd',
   buttonLabel: 'About',
   imgStart: false,
-  img: require('../../images/svg-1.svg'),
+  img: require('../../images/IMG_6231.PNG'),
   alt: 'About pic',
   dark: true,
   primary: true,
